@@ -7,4 +7,8 @@ import { PostsModule } from './posts/posts.module';
   controllers: [],
   providers: [],
 })
-export class AppModule {}
+export class AppModule {
+  constructor() {
+    console.log('Hello!');
+  }
+}
